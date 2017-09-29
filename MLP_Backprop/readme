@@ -1,0 +1,11 @@
+This directory contains the following files :-
+1) inputs.txt - contains 16 data points where each data point is a 4 bit binary number and the 5th is the bias(=1 always) and the 6th bit is the output value(parity).
+
+2) Data.py - Reads input from inputs.txt and puts them in an array of tuples format.
+
+3)parity.py - is the code that does gradient descent to train the MLP.
+
+
+To run the program :-
+python parity.py inputs
+
